@@ -53,6 +53,10 @@ jobs:
       - image: circleci/node:9
     steps:
       - run:
+          name: Authorize NPM
+          command: echo "//registry.npmjs.org/:_authToken=$PRIVATE_NPM_TOKEN" > ~/.npmrc
+
+      - run:
           name: Publish to NPM
           command: npm publish
 
