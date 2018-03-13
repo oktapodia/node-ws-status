@@ -1,0 +1,28 @@
+{
+  "name": "ws-status",
+  "version": "1.0.0",
+  "description": "Utility to interact with WS status code in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest .",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oktapodia/node-ws-status.git"
+  },
+  "author": "BRAMILLE Sebastien <sebastien.bramille@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oktapodia/node-ws-status/issues"
+  },
+  "homepage": "https://github.com/oktapodia/node-ws-status#readme",
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jest": "^21.14.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "jest": "^22.4.2"
+  }
+}
