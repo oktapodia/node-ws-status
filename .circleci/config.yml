@@ -78,25 +78,46 @@ workflows:
   version: 2
   main:
     jobs:
-      - lint
+      - lint:
+          filters:
+            tags:
+              only: /.*/
       - node-9:
           requires:
             - lint
+          filters:
+            tags:
+              only: /.*/
       - node-9-browsers:
           requires:
             - lint
+          filters:
+            tags:
+              only: /.*/
       - node-8:
           requires:
             - lint
+          filters:
+            tags:
+              only: /.*/
       - node-8-browsers:
           requires:
             - lint
+          filters:
+            tags:
+              only: /.*/
       - node-6:
           requires:
             - lint
+          filters:
+            tags:
+              only: /.*/
       - node-6-browsers:
           requires:
             - lint
+          filters:
+            tags:
+              only: /.*/
       - publish_npm_on_tag:
           requires:
             - node-9
