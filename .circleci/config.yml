@@ -8,12 +8,15 @@ references:
       - run:
           name: Installing dependencies
           command: npm install
-      - run:
-          name: Run tests
-          command: npm run test
 jobs:
   lint:
+    docker:
+      - image: circleci/node:9
     steps:
+      - checkout
+      - run:
+          name: Installing dependencies
+          command: npm install
       - run:
           name: Eslint
           command: npm run lint
