@@ -55,6 +55,7 @@ jobs:
     docker:
       - image: circleci/node:9
     steps:
+      - checkout
       - run:
           name: Authorize NPM
           command: echo "//registry.npmjs.org/:_authToken=$PRIVATE_NPM_TOKEN" > ~/.npmrc
