@@ -3,7 +3,7 @@ module.exports = {
   1001: 'Going away',
   1002: 'Protocol error',
   1003: 'Unsupported data',
-  1004: '---Reserved---',
+  1004: 'Reserved',
   1005: 'No status received',
   1006: 'Abnormal Closure',
   1007: 'Invalid frame payload data',

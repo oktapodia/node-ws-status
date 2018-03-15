@@ -1,5 +1,3 @@
-[![CircleCI](https://circleci.com/gh/oktapodia/node-ws-status/tree/master.svg?style=svg)](https://circleci.com/gh/oktapodia/node-ws-status/tree/master)
-
 # WS Status & Op Code npm package
 
 Utility to interact with Websocket status & Op Code.
@@ -40,3 +38,7 @@ console.log(OpCode[9]);
 // echo 9
 console.log(OpCode.PING);
 ```
+
+---
+
+Original [repository](https://github.com/oktapodia/node-ws-status) and [npm](https://www.npmjs.com/package/ws-status) package
