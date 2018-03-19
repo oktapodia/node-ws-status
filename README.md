@@ -3,6 +3,7 @@
 # WS Status & Op Code npm package
 
 Utility to interact with Websocket status & Op Code.
+This library strictly follow the [RFC6455](https://tools.ietf.org/html/rfc6455)
 
 ## Usage
 
