@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   1000: 'Normal closure',
   1001: 'Going away',
   1002: 'Protocol error',

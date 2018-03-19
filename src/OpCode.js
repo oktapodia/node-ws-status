@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   0: 'Continuation frame',
   1: 'Text frame',
   2: 'Binary frame',
