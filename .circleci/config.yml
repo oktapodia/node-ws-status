@@ -8,6 +8,9 @@ references:
       - run:
           name: Installing dependencies
           command: npm install
+      - run:
+          name: Run tests
+          command: npm test
 jobs:
   lint:
     docker:
