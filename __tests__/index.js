@@ -1,4 +1,4 @@
-const lib = require('../');
+const lib = require('../').default;
 
 describe('node-ws-status', () => {
   it('StatusCode', () => {
