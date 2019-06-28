@@ -1,6 +1,6 @@
 {
   "name": "ws-status",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Utility to interact with WS status code in Node.js",
   "main": "lib/index.js",
   "scripts": {
